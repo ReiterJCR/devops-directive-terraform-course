@@ -19,4 +19,9 @@ AWS Terraform provider documentation: https://registry.terraform.io/providers/ha
 1) `aws configure`
 2) `terraform init`
 3) `terraform plan`
-4) `terraform apply`
+4) `terraform apply
+
+- Use Terraform to provision then install dependencies to each instance using Ansible for example
+- or Prepackage a server template which will have all dependencies
+- or pair Terraform with ex)kubernetes to define cloud resources, then use kubernetes to define how the application will be deployed and managed
+`
